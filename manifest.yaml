@@ -48,7 +48,7 @@
 
 - id: gp-005
   catalog_no: "GP-005"
-  title: "能看见完成进度的 onboarding 清单"
+  title: "能看见完成进度的新手引导清单"
   kind: tool
   note: >
     四个步骤，一条真的会前进的进度条，清单完成前始终可见，不会在第一步之后消失。
