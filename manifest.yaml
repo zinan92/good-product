@@ -1,10 +1,10 @@
 - id: gp-001
   catalog_no: "GP-001"
-  title: "One-page checkout, no redirects"
+  title: "一步完成结账，不跳转"
   kind: tool
   note: >
-    Address, card, and review sit in one scroll instead of three pages. Shipped
-    this pattern twice; both times cart abandonment dropped in the first week.
+    地址、银行卡和订单确认放在一次滚动里，不再拆成三页。这个模式已经上线过两次；
+    两次上线后的第一周，购物车放弃率都下降了。
   tags: [checkout, mobile, forms]
   image: images/pending.svg
   collected_at: "2026-08-12"
@@ -12,12 +12,11 @@
 
 - id: gp-002
   catalog_no: "GP-002"
-  title: "An empty inbox that feels like a reward"
+  title: "让人觉得像奖励的空收件箱"
   kind: inspiration
   note: >
-    No generic “nothing here” — a small drawn scene and one line of copy that
-    acknowledges the work you just finished. Worth stealing the tone, not just
-    the layout.
+    不说一句泛泛的“这里什么都没有”——用一幅小插画和一句文案，回应你刚刚完成的工作。
+    值得借鉴的是它的语气，不只是布局。
   tags: [empty-state, illustration, microcopy]
   image: images/pending.svg
   collected_at: "2026-08-14"
@@ -25,12 +24,11 @@
 
 - id: gp-003
   catalog_no: "GP-003"
-  title: "Sidebar that collapses to icons only"
+  title: "可以收缩为纯图标的侧边栏"
   kind: tool
   note: >
-    Sixteen sections, one rail. Icon-only by default with a hover label buys
-    back real width for the actual content — running this in two internal tools
-    now.
+    十六个分区，只用一条侧边栏。默认只显示图标，悬停时再显示名称，把真正内容需要的宽度还回来——
+    现在已经用在两个内部工具里。
   tags: [navigation, dashboard, information-density]
   image: images/pending.svg
   collected_at: "2026-08-15"
@@ -38,12 +36,11 @@
 
 - id: gp-004
   catalog_no: "GP-004"
-  title: "Three tiers, one obviously right"
+  title: "三个套餐，只有一个明显正确"
   kind: inspiration
   note: >
-    The middle card is taller by exactly one line of copy, not a badge shouting
-    “Most popular.” Quieter, and it still reads as the intended path in half a
-    second.
+    中间套餐只比其他套餐多一行文案，而不是用“最受欢迎”大声喊出来。更安静，却依然能让人
+    在半秒内看出应该选哪一个。
   tags: [pricing, conversion]
   image: images/pending.svg
   collected_at: "2026-08-18"
@@ -51,12 +48,11 @@
 
 - id: gp-005
   catalog_no: "GP-005"
-  title: "An onboarding checklist you can see finishing"
+  title: "能看见完成进度的 onboarding 清单"
   kind: tool
   note: >
-    Four steps, a progress bar that actually moves, and the checklist stays
-    visible instead of disappearing after step one. Borrowed this exact shape
-    for the last launch.
+    四个步骤，一条真的会前进的进度条，清单完成前始终可见，不会在第一步之后消失。
+    上一次发布时，我直接借用了这个结构。
   tags: [onboarding, gamification]
   image: images/pending.svg
   collected_at: "2026-08-21"
@@ -64,12 +60,11 @@
 
 - id: gp-006
   catalog_no: "GP-006"
-  title: "Command palette as the front door"
+  title: "把命令面板当作入口"
   kind: tool
   note: >
-    Every action reachable from one search box, ranked by recency. Once a team
-    gets used to Cmd+K they stop opening the sidebar at all — good sign the nav
-    is the fallback, not the product.
+    所有操作都能从一个搜索框进入，并按最近使用排序。团队习惯 Cmd+K 后，甚至不再打开侧边栏——
+    这说明导航是后备入口，而不是产品本身。
   tags: [search, keyboard, power-user]
   image: images/pending.svg
   collected_at: "2026-08-23"
@@ -77,12 +72,11 @@
 
 - id: gp-007
   catalog_no: "GP-007"
-  title: "Settings with no search bar in sight"
+  title: "没有搜索框的设置页"
   kind: inspiration
   note: >
-    Nine sections, grouped so well that a search bar would just be admitting
-    defeat. Proof that most “add search to settings” tickets are actually IA
-    tickets in disguise.
+    九个分区，组织得足够好，以至于加搜索框反而像是在承认失败。它证明了大多数“给设置页加搜索”
+    的需求，其实是披着搜索外衣的信息架构问题。
   tags: [settings, information-architecture]
   image: images/pending.svg
   collected_at: "2026-08-25"
@@ -90,12 +84,11 @@
 
 - id: gp-008
   catalog_no: "GP-008"
-  title: "Reactions that appear without a long-press"
+  title: "不用长按就能出现的快捷反应"
   kind: inspiration
   note: >
-    A light hover reveals the reaction bar on desktop, no gesture required.
-    Small thing, but it removes the one interaction people always discover by
-    accident.
+    桌面端轻轻悬停就会出现反应栏，不需要额外手势。虽然很小，却消除了那个大家总要
+    偶然发现的交互。
   tags: [chat, mobile, micro-interaction]
   image: images/pending.svg
   collected_at: "2026-08-27"
@@ -103,12 +96,11 @@
 
 - id: gp-009
   catalog_no: "GP-009"
-  title: "One chart, one annotated peak"
+  title: "一张图，只标注一个峰值"
   kind: tool
   note: >
-    Instead of a legend and four toggles, the chart just labels the one moment
-    that matters. Copied this restraint into the trading dashboard — fewer
-    numbers, faster read.
+    不放图例和四个切换项，只标注真正重要的那个时刻。我把这种克制带进了交易看板——
+    数字更少，阅读更快。
   tags: [charts, analytics, dataviz]
   image: images/pending.svg
   collected_at: "2026-08-29"
