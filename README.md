@@ -15,25 +15,25 @@
 in  screenshots + product metadata + curator notes
 out manifest.yaml + image corpus for the Good Product catalog
 
-fail missing image → keep the entry explicit as 图片待补; never leave a broken path
+fail missing image → reject the entry before publication; every public entry needs a real screenshot
 fail invalid kind/schema → reject the entry before it is published
 fail sensitive/private content → stop publication and notify Park
 ```
 
-Good Product 是 Park 的产品设计收藏内容仓。它按“一个产品/工具一个条目”保存截图、功能标签、适用场景、验证状态和策展人判断；网站展示由 `park-ai-intel` 负责，本仓库不负责构建或部署。
+Good Product 是 Park 的产品设计收藏内容仓。它按“一个产品/工具一个条目”保存一张主截图、可选的多张 gallery 截图、功能标签、适用场景、验证状态和策展人判断；网站展示由 `park-ai-intel` 负责，本仓库不负责构建或部署。
 
 ## 示例输出
 
-首批种子条目来自已批准的 Good Product 参考稿；真实截图会在后续逐条补入。当前使用明确标注的待补图占位：
+当前第一条正式收藏是 NewsLiquid，三张截图分别记录交易终端、预测市场和全球事件地图：
 
-![图片待补占位](./images/pending.svg)
+![NewsLiquid 交易终端](./images/newsliquid-trade-terminal.png)
 
 ## 如何添加一条收藏
 
 不需要安装依赖，也不需要运行脚本。
 
-1. 把截图复制到 `images/`，文件名使用小写短横线，例如 `images/gp-010-command-palette.png`。
-2. 在 `manifest.yaml` 末尾追加一条记录，保持 `id`、`catalog_no` 和文件名唯一。
+1. 把一张主截图和可选的 gallery 截图复制到 `images/`，文件名使用小写短横线，例如 `images/gp-002-command-palette.png`。
+2. 在 `manifest.yaml` 末尾追加一条记录，保持 `id`、`catalog_no` 和文件名唯一；多张图同时填入 `images` 数组，第一张也写入 `image`。
 3. `kind` 只能写 `inspiration`（视觉灵感）或 `tool`（已验证工具）。
 4. `tags` 使用短的英文 slug；没有来源链接时保留 `source_url: null`。
 5. 检查图片不是私人/客户资料，并确认图片路径从仓库根目录可解析。
@@ -58,6 +58,7 @@ Good Product 是 Park 的产品设计收藏内容仓。它按“一个产品/工
 | `note` | 一两句话说明为什么值得保存 |
 | `tags` | 用于网站筛选的英文标签数组 |
 | `image` | 相对仓库根目录的图片路径 |
+| `images` | 可选的多截图数组；第一张应与 `image` 一致 |
 | `collected_at` | `YYYY-MM-DD` 收藏日期 |
 | `source_url` | 可选的原产品/工具链接 |
 
@@ -76,7 +77,7 @@ capability:
   in: screenshots + curator metadata
   out: manifest.yaml + images/
   fail:
-    - missing image -> keep an explicit placeholder state; never publish a broken path
+    - missing image -> reject the entry; every public entry needs a real screenshot
     - invalid schema or kind -> reject the entry before publication
     - sensitive content -> stop publication and ask Park
 source_of_truth: manifest.yaml

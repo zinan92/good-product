@@ -5,21 +5,21 @@
 - Repository: `https://github.com/zinan92/good-product`
 - Visibility: public
 - Role: Product Lab content source
-- Current state: M1 content source merged to `main` at `777bc71`; nine seed records are public.
-- Public consumer: `https://park-ai-intel.com/goodproduct` (M2 integration pending)
+- Current state: first real NewsLiquid content refresh is on `main` at `d00699a` lineage; one public entry with three screenshots is ready for site sync.
+- Public consumer: `https://park-ai-intel.com/goodproduct` (NewsLiquid sync pending)
 - Source of truth: `manifest.yaml` and `images/`
 
 ## 当前指标
 
-- Seed entries: 9
-- Real screenshots: 0
-- Explicit pending-image placeholders: 9
+- Published entries: 1
+- Real screenshots: 3
+- Explicit pending-image placeholders: 0
 - Supported kinds: 2 (`inspiration`, `tool`)
 
 ## 下一步
 
-1. Add real screenshots as Park supplies them; keep catalog order stable.
-2. Complete `park-ai-intel` issue #67 for local sync and `/goodproduct` rendering.
+1. Add the next real product/screenshots as Park supplies them; keep catalog order stable.
+2. Run the existing `park-ai-intel` content sync so the NewsLiquid gallery is public at `/goodproduct`.
 3. Let the next Park OS snapshot pick up this public Product Lab repository; do not edit the scoped registry manually.
 
 ## Evidence
