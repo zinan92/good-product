@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">Image pending</title>
+  <desc id="desc">A neutral placeholder indicating that the real product screenshot will be added later.</desc>
+  <rect width="1200" height="720" fill="#f6f4ed"/>
+  <rect x="32" y="32" width="1136" height="656" fill="none" stroke="#c9c2b0" stroke-width="2"/>
+  <circle cx="600" cy="330" r="8" fill="#2b4c8c"/>
+  <path d="M560 360h80M580 390h40" stroke="#8f6423" stroke-width="3" stroke-linecap="round"/>
+  <text x="600" y="455" text-anchor="middle" fill="#55554e" font-family="monospace" font-size="22" letter-spacing="3">IMAGE PENDING</text>
+  <text x="600" y="490" text-anchor="middle" fill="#8f6423" font-family="sans-serif" font-size="20">图片待补</text>
+</svg>
