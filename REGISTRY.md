@@ -5,7 +5,7 @@
 - Repository: `https://github.com/zinan92/good-product`
 - Visibility: public
 - Role: Product Lab content source
-- Current state: M1 scaffold and nine seed records prepared on the issue branch; first PR pending.
+- Current state: M1 content source merged to `main` at `777bc71`; nine seed records are public.
 - Public consumer: `https://park-ai-intel.com/goodproduct` (M2 integration pending)
 - Source of truth: `manifest.yaml` and `images/`
 
@@ -18,12 +18,11 @@
 
 ## 下一步
 
-1. Merge the M1 content PR after issue #1 verification.
-2. Add real screenshots as Park supplies them; keep catalog order stable.
-3. Complete `park-ai-intel` issue #67 for local sync and `/goodproduct` rendering.
-4. Let the next Park OS snapshot pick up this public Product Lab repository; do not edit the scoped registry manually.
+1. Add real screenshots as Park supplies them; keep catalog order stable.
+2. Complete `park-ai-intel` issue #67 for local sync and `/goodproduct` rendering.
+3. Let the next Park OS snapshot pick up this public Product Lab repository; do not edit the scoped registry manually.
 
 ## Evidence
 
-- Contract: `https://github.com/zinan92/good-product/issues/1`
+- Contract / merged PR: `https://github.com/zinan92/good-product/issues/1` · `https://github.com/zinan92/good-product/pull/2`
 - Visual source: `/Users/wendy/work/_handoff/good-product-mockup.html`
