@@ -13,3 +13,17 @@
     - images/newsliquid-live-situation-room.png
   collected_at: "2026-08-29"
   source_url: "https://newsliquid.com/"
+
+- id: gp-002
+  catalog_no: "GP-002"
+  title: "Decathlon Yestalgia：把复古运动做成可游逛的品牌故事"
+  kind: inspiration
+  note: >
+    黑底、白色画布、荧光黄按钮、立体阴影、手绘几何贴纸和大面积人物视觉，先建立强烈情绪，
+    再把系列、人物与商品目录串起来。它把品牌活动页做成了一个有记忆点的可游逛空间。
+  tags: [illustration, information-density, microcopy, conversion, pricing]
+  image: images/decathlon-yestalgia.png
+  images:
+    - images/decathlon-yestalgia.png
+  collected_at: "2026-08-30"
+  source_url: "https://decathlonyestalgia.com/fr/"

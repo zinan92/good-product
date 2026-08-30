@@ -1,5 +1,11 @@
 # Good Product Decision Log
 
+## 2026-08-30 — Add Decathlon Yestalgia
+
+- Decision: add Decathlon Yestalgia as `GP-002`, classified as `inspiration`.
+- Why: the supplied screen is a strong reference for turning a retro sports capsule into a navigable brand story through art direction, composition, microcopy, and product browsing.
+- Evidence: user-provided screenshot `images/decathlon-yestalgia.png` and source `https://decathlonyestalgia.com/fr/`.
+
 ## 2026-08-29 — Replace placeholders with the first real product
 
 - Decision: remove the nine placeholder seed records and make NewsLiquid `GP-001`, with the three user-provided screenshots stored as one product gallery.

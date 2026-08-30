@@ -5,14 +5,14 @@
 - Repository: `https://github.com/zinan92/good-product`
 - Visibility: public
 - Role: Product Lab content source
-- Current state: first real NewsLiquid content refresh is on `main` at `987aa44`; one public entry with three screenshots is live in the site consumer.
+- Current state: NewsLiquid and Decathlon Yestalgia are on `main`; two public entries with four real screenshots are live in the site consumer.
 - Public consumer: `https://park-ai-intel.com/goodproduct` (NewsLiquid gallery live)
 - Source of truth: `manifest.yaml` and `images/`
 
 ## 当前指标
 
-- Published entries: 1
-- Real screenshots: 3
+- Published entries: 2
+- Real screenshots: 4
 - Explicit pending-image placeholders: 0
 - Supported kinds: 2 (`inspiration`, `tool`)
 
