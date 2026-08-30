@@ -1,5 +1,12 @@
 # Good Product Decision Log
 
+## 2026-08-30 — Add nine independent Dribbble references
+
+- Decision: map the nine supplied screenshots one-to-one to the nine supplied Dribbble URLs, adding `GP-004` through `GP-012` as separate `inspiration` entries.
+- Why: each screenshot represents a different design object or product surface; merging them would destroy the retrieval value of the collection.
+- Decision: describe only what is visible in each screenshot and preserve the supplied URL as `source_url`; do not treat a Dribbble shot as proof that Park has validated the product.
+- Evidence: the nine files named `images/souful-design-profile.png` through `images/khoirul-personal-portfolio.png` and their ordered `source_url` values in `manifest.yaml`.
+
 ## 2026-08-30 — Add Subscrr
 
 - Decision: add Subscrr as `GP-003`, classified as `inspiration`.

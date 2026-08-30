@@ -41,3 +41,129 @@
     - images/subscrr-app.png
   collected_at: "2026-08-30"
   source_url: "https://subscrr.app/"
+
+- id: gp-004
+  catalog_no: "GP-004"
+  title: "Souful Design：把个人作品集做成可浏览的视觉档案"
+  kind: inspiration
+  note: >
+    把设计师身份、作品数量、社交入口和多张作品图压进一个 profile 页面；信息不靠长说明，
+    而靠图片墙和清晰的个人层级传达。适合参考个人品牌首页如何把“我是谁”和“我做过什么”合并。
+  tags: [illustration, information-density, navigation, conversion]
+  image: images/souful-design-profile.png
+  images:
+    - images/souful-design-profile.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27139365-Unique-Portfolio-Website-Profile-Page-UI"
+
+- id: gp-005
+  catalog_no: "GP-005"
+  title: "Clau Dia：用大胆色块做出有记忆点的个人网站"
+  kind: inspiration
+  note: >
+    米白内容面、紫蓝背景、绿色、黄色与红色有机色块，再配合同一张人物图的桌面与移动双构图，
+    让“个人介绍”既像作品展示，也像一个有性格的品牌入口。
+  tags: [illustration, mobile, conversion, microcopy]
+  image: images/clau-dia-personal-site.png
+  images:
+    - images/clau-dia-personal-site.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/21494998-Personal-Website-Design"
+
+- id: gp-006
+  catalog_no: "GP-006"
+  title: "CodeEase：把 AI 对话、代码和工作空间放在一张桌面上"
+  kind: inspiration
+  note: >
+    左侧保留任务入口和工具导航，中间用对话承载代码结果，右侧露出项目文件；它把“聊天”变成了
+    可继续工作的界面，而不是一个孤立的输入框。
+  tags: [chat, dashboard, information-density, keyboard]
+  image: images/codeease-chatbot-workspace.png
+  images:
+    - images/codeease-chatbot-workspace.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27680046-Chatbot-UI-AI-Web-Assistant"
+
+- id: gp-007
+  catalog_no: "GP-007"
+  title: "Vero：让收入情报像一个可操作的工作台"
+  kind: inspiration
+  note: >
+    把 Leads 作为中心对象，用侧边栏承载 pipeline、work、derive、grow 等工作分区，再用表格、
+    状态和评分把复杂销售判断压缩成可扫读的操作面。
+  tags: [dashboard, information-density, navigation, analytics]
+  image: images/vero-revenue-intelligence.png
+  images:
+    - images/vero-revenue-intelligence.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27686671-Vero-AI-Powered-Revenue-Intelligence-Product"
+
+- id: gp-008
+  catalog_no: "GP-008"
+  title: "PricePilotAI：用一句大主张打开 AI 购物入口"
+  kind: inspiration
+  note: >
+    极大的标题、人物主视觉、黑色 AI Shop 按钮和底部对话框，把“更聪明地买”从抽象口号转成一个
+    可立即尝试的入口；营销首屏和产品入口被合在同一层。
+  tags: [pricing, conversion, search, microcopy]
+  image: images/pricepilot-ai-shopping.png
+  images:
+    - images/pricepilot-ai-shopping.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27687843-Smart-Price-Tracking-AI-Shopping-Assistant"
+
+- id: gp-009
+  catalog_no: "GP-009"
+  title: "Kraving：把复杂支付流程做成可连续阅读的移动屏幕"
+  kind: inspiration
+  note: >
+    在同一张画面里并列展示付款、还款日期、Direct Debit、Upcoming Payments 和 Transactions，
+    让多个金融状态共享颜色、底部导航和大数字层级。
+  tags: [mobile, forms, information-density, conversion]
+  image: images/kraving-mobile-payments.png
+  images:
+    - images/kraving-mobile-payments.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27681990-Kraving-mobile-app-design"
+
+- id: gp-010
+  catalog_no: "GP-010"
+  title: "Wellspace：用一组 pitch deck 画面建立‘每天变好’的信任感"
+  kind: inspiration
+  note: >
+    用家庭人物、深红与奶油色块和进度式数据讲“陪伴式心理健康”——情绪主张、用户体验、结果指标
+    和品牌语气在同一套视觉系统里互相证明。
+  tags: [illustration, information-density, microcopy, conversion]
+  image: images/wellspace-pitch-deck.png
+  images:
+    - images/wellspace-pitch-deck.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27686699-Wellspace-Mental-Health-Startup-Pitch-Deck"
+
+- id: gp-011
+  catalog_no: "GP-011"
+  title: "Tasiki：把团队工作台做成一眼能安排今天的首页"
+  kind: inspiration
+  note: >
+    左侧项目导航、中间进度与任务、右侧日程和项目卡片形成清晰的三段式工作节奏；它把“今天做什么”
+    放在复杂项目管理之前。
+  tags: [dashboard, navigation, onboarding, information-density]
+  image: images/tasiki-project-management.png
+  images:
+    - images/tasiki-project-management.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/27678797-Tasiki-Project-Management-Home-Page"
+
+- id: gp-012
+  catalog_no: "GP-012"
+  title: "Khoirul：让个人作品集同时服务桌面和移动端"
+  kind: inspiration
+  note: >
+    同一个个人品牌，在桌面端用大标题和人物照片建立第一印象，在移动端用可滚动的作品和明确 CTA
+    继续说服；响应式并不是缩小，而是重新安排阅读顺序。
+  tags: [mobile, conversion, navigation, microcopy]
+  image: images/khoirul-personal-portfolio.png
+  images:
+    - images/khoirul-personal-portfolio.png
+  collected_at: "2026-08-30"
+  source_url: "https://dribbble.com/shots/25396299-Personal-Website-For-UI-Designer"
