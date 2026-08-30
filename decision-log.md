@@ -1,5 +1,11 @@
 # Good Product Decision Log
 
+## 2026-08-30 — Add Subscrr
+
+- Decision: add Subscrr as `GP-003`, classified as `inspiration`.
+- Why: the supplied screen is a useful reference for combining a high-emotion landing visual with a concrete mobile product promise: translate recurring payments into daily, monthly, and yearly cost.
+- Evidence: user-provided screenshot `images/subscrr-app.png` and source `https://subscrr.app/`.
+
 ## 2026-08-30 — Add Decathlon Yestalgia
 
 - Decision: add Decathlon Yestalgia as `GP-002`, classified as `inspiration`.

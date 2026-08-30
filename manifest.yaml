@@ -27,3 +27,17 @@
     - images/decathlon-yestalgia.png
   collected_at: "2026-08-30"
   source_url: "https://decathlonyestalgia.com/fr/"
+
+- id: gp-003
+  catalog_no: "GP-003"
+  title: "Subscrr：把订阅支出变成一个诚实的数字"
+  kind: inspiration
+  note: >
+    用一张极有冲击力的品牌首屏，把“所有订阅，以及它们真正的成本”讲清楚；
+    再用手机里的日、月、年支出、即将扣款和订阅列表，把抽象的财务泄漏变成每天都能理解的行动线索。
+  tags: [mobile, pricing, conversion, microcopy, information-density]
+  image: images/subscrr-app.png
+  images:
+    - images/subscrr-app.png
+  collected_at: "2026-08-30"
+  source_url: "https://subscrr.app/"
